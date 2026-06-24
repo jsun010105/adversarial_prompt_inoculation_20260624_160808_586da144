@@ -1,0 +1,1388 @@
+{
+  "2502.13141v1": {
+    "title": "UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models",
+    "authors": [
+      "Huawei Lin",
+      "Yingjie Lao",
+      "Tong Geng"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) are vulnerable to attacks like prompt injection, backdoor attacks, and adversarial attacks, which manipulate prompts or models to generate harmful outputs. In this paper, departing from traditional deep learning attack paradigms, we explore their intrinsic relationship a",
+    "arxiv_id": "2502.13141v1",
+    "url": "http://arxiv.org/abs/2502.13141v1",
+    "pdf_url": "https://arxiv.org/pdf/2502.13141v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2410.05451v3": {
+    "title": "SecAlign: Defending Against Prompt Injection with Preference Optimization",
+    "authors": [
+      "Sizhe Chen",
+      "Arman Zharmagambetov",
+      "Saeed Mahloujifar"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) are becoming increasingly prevalent in modern software systems, interfacing between the user and the Internet to assist with tasks that require advanced language understanding. To accomplish these tasks, the LLM often uses external data sources such as user documents, we",
+    "arxiv_id": "2410.05451v3",
+    "url": "http://arxiv.org/abs/2410.05451v3",
+    "pdf_url": "https://arxiv.org/pdf/2410.05451v3",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  "2402.06363v2": {
+    "title": "StruQ: Defending Against Prompt Injection with Structured Queries",
+    "authors": [
+      "Sizhe Chen",
+      "Julien Piet",
+      "Chawin Sitawarin"
+    ],
+    "year": 2024,
+    "abstract": "Recent advances in Large Language Models (LLMs) enable exciting LLM-integrated applications, which perform text-based tasks by utilizing their advanced language understanding capabilities. However, as LLMs have improved, so have the attacks against them. Prompt injection attacks are an important thr",
+    "arxiv_id": "2402.06363v2",
+    "url": "http://arxiv.org/abs/2402.06363v2",
+    "pdf_url": "https://arxiv.org/pdf/2402.06363v2",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  "2403.04957v1": {
+    "title": "Automatic and Universal Prompt Injection Attacks against Large Language Models",
+    "authors": [
+      "Xiaogeng Liu",
+      "Zhiyuan Yu",
+      "Yizhe Zhang"
+    ],
+    "year": 2024,
+    "abstract": "Large Language Models (LLMs) excel in processing and generating human language, powered by their ability to interpret and follow instructions. However, their capabilities can be exploited through prompt injection attacks. These attacks manipulate LLM-integrated applications into producing responses ",
+    "arxiv_id": "2403.04957v1",
+    "url": "http://arxiv.org/abs/2403.04957v1",
+    "pdf_url": "https://arxiv.org/pdf/2403.04957v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "2512.12583v1": {
+    "title": "Detecting Prompt Injection Attacks Against Application Using Classifiers",
+    "authors": [
+      "Safwan Shaheer",
+      "G. M. Refatul Islam",
+      "Mohammad Rafid Hamid"
+    ],
+    "year": 2025,
+    "abstract": "Prompt injection attacks can compromise the security and stability of critical systems, from infrastructure to large web applications. This work curates and augments a prompt injection dataset based on the HackAPrompt Playground Submissions corpus and trains several classifiers, including LSTM, feed",
+    "arxiv_id": "2512.12583v1",
+    "url": "http://arxiv.org/abs/2512.12583v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.12583v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  "2601.12359v1": {
+    "title": "Zero-Shot Embedding Drift Detection: A Lightweight Defense Against Prompt Injections in LLMs",
+    "authors": [
+      "Anirudh Sekar",
+      "Mrinal Agarwal",
+      "Rachel Sharma"
+    ],
+    "year": 2026,
+    "abstract": "Prompt injection attacks have become an increasing vulnerability for LLM applications, where adversarial prompts exploit indirect input channels such as emails or user-generated content to circumvent alignment safeguards and induce harmful or unintended outputs. Despite advances in alignment, even s",
+    "arxiv_id": "2601.12359v1",
+    "url": "http://arxiv.org/abs/2601.12359v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.12359v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  "2306.11066v2": {
+    "title": "Adversarial Robustness of Prompt-based Few-Shot Learning for Natural Language Understanding",
+    "authors": [
+      "Venkata Prabhakara Sarath Nookala",
+      "Gaurav Verma",
+      "Subhabrata Mukherjee"
+    ],
+    "year": 2023,
+    "abstract": "State-of-the-art few-shot learning (FSL) methods leverage prompt-based fine-tuning to obtain remarkable results for natural language understanding (NLU) tasks. While much of the prior FSL methods focus on improving downstream task performance, there is a limited understanding of the adversarial robu",
+    "arxiv_id": "2306.11066v2",
+    "url": "http://arxiv.org/abs/2306.11066v2",
+    "pdf_url": "https://arxiv.org/pdf/2306.11066v2",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  "2407.15549v3": {
+    "title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "authors": [
+      "Abhay Sheshadri",
+      "Aidan Ewart",
+      "Phillip Guo"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) can often be made to behave in undesirable ways that they are explicitly fine-tuned not to. For example, the LLM red-teaming literature has produced a wide variety of 'jailbreaking' techniques to elicit harmful text from models that were fine-tuned to be harmless. Recent work on red-teaming, model editing, and interpretability suggests that this challenge stems from how (adversarial) fine-tuning largely serves to suppress rather than remove undesirable capabilities f",
+    "arxiv_id": "2407.15549v3",
+    "url": "http://arxiv.org/abs/2407.15549v3",
+    "pdf_url": "https://arxiv.org/pdf/2407.15549v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  "2504.07887v2": {
+    "title": "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge",
+    "authors": [
+      "Riccardo Cantini",
+      "Alessio Orsino",
+      "Massimo Ruggiero"
+    ],
+    "year": 2025,
+    "abstract": "The growing integration of Large Language Models (LLMs) into critical societal domains has raised concerns about embedded biases that can perpetuate stereotypes and undermine fairness. Such biases may stem from historical inequalities in training data, linguistic imbalances, or adversarial manipulation. Despite mitigation efforts, recent studies show that LLMs remain vulnerable to adversarial attacks that elicit biased outputs. This work proposes a scalable benchmarking framework to assess LLM r",
+    "arxiv_id": "2504.07887v2",
+    "url": "http://arxiv.org/abs/2504.07887v2",
+    "pdf_url": "https://arxiv.org/pdf/2504.07887v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2308.10819v3": {
+    "title": "Evaluating the Instruction-Following Robustness of Large Language Models to Prompt Injection",
+    "authors": [
+      "Zekun Li",
+      "Baolin Peng",
+      "Pengcheng He"
+    ],
+    "year": 2023,
+    "abstract": "Large Language Models (LLMs) have demonstrated exceptional proficiency in instruction-following, becoming increasingly crucial across various applications. However, this capability brings with it the risk of prompt injection attacks, where attackers inject instructions into LLMs' input to elicit und",
+    "arxiv_id": "2308.10819v3",
+    "url": "http://arxiv.org/abs/2308.10819v3",
+    "pdf_url": "https://arxiv.org/pdf/2308.10819v3",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "1706.06749v1": {
+    "title": "Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering",
+    "authors": [
+      "Shafiq Joty",
+      "Preslav Nakov",
+      "Llu\u00eds M\u00e0rquez"
+    ],
+    "year": 2017,
+    "abstract": "We address the problem of cross-language adaptation for question-question similarity reranking in community question answering, with the objective to port a system trained on one input language to another input language given labeled training data for the first language and only unlabeled data for t",
+    "arxiv_id": "1706.06749v1",
+    "url": "http://arxiv.org/abs/1706.06749v1",
+    "pdf_url": "https://arxiv.org/pdf/1706.06749v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2103.01400v3": {
+    "title": "Smoothness Analysis of Adversarial Training",
+    "authors": [
+      "Sekitoshi Kanai",
+      "Masanori Yamada",
+      "Hiroshi Takahashi"
+    ],
+    "year": 2021,
+    "abstract": "Deep neural networks are vulnerable to adversarial attacks. Recent studies about adversarial robustness focus on the loss landscape in the parameter space since it is related to optimization and generalization performance. These studies conclude that the difficulty of adversarial training is caused by the non-smoothness of the loss function: i.e., its gradient is not Lipschitz continuous. However, this analysis ignores the dependence of adversarial attacks on model parameters. Since adversarial ",
+    "arxiv_id": "2103.01400v3",
+    "url": "http://arxiv.org/abs/2103.01400v3",
+    "pdf_url": "https://arxiv.org/pdf/2103.01400v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  "2403.13369v2": {
+    "title": "Clinical information extraction for Low-resource languages with Few-shot learning using Pre-trained language models and Prompting",
+    "authors": [
+      "Phillip Richter-Pechanski",
+      "Philipp Wiesenbach",
+      "Dominic M. Schwab"
+    ],
+    "year": 2024,
+    "abstract": "Automatic extraction of medical information from clinical documents poses several challenges: high costs of required clinical expertise, limited interpretability of model predictions, restricted computational resources and privacy regulations. Recent advances in domain-adaptation and prompting metho",
+    "arxiv_id": "2403.13369v2",
+    "url": "http://arxiv.org/abs/2403.13369v2",
+    "pdf_url": "https://arxiv.org/pdf/2403.13369v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2205.14230v2": {
+    "title": "Semi-supervised Semantics-guided Adversarial Training for Trajectory Prediction",
+    "authors": [
+      "Ruochen Jiao",
+      "Xiangguo Liu",
+      "Takami Sato"
+    ],
+    "year": 2022,
+    "abstract": "Predicting the trajectories of surrounding objects is a critical task for self-driving vehicles and many other autonomous systems. Recent works demonstrate that adversarial attacks on trajectory prediction, where small crafted perturbations are introduced to history trajectories, may significantly mislead the prediction of future trajectories and induce unsafe planning. However, few works have addressed enhancing the robustness of this important safety-critical task.In this paper, we present a n",
+    "arxiv_id": "2205.14230v2",
+    "url": "http://arxiv.org/abs/2205.14230v2",
+    "pdf_url": "https://arxiv.org/pdf/2205.14230v2",
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.RO"
+    ]
+  },
+  "2408.13040v1": {
+    "title": "SpeechPrompt: Prompting Speech Language Models for Speech Processing Tasks",
+    "authors": [
+      "Kai-Wei Chang",
+      "Haibin Wu",
+      "Yu-Kai Wang"
+    ],
+    "year": 2024,
+    "abstract": "Prompting has become a practical method for utilizing pre-trained language models (LMs). This approach offers several advantages. It allows an LM to adapt to new tasks with minimal training and parameter updates, thus achieving efficiency in both storage and computation. Additionally, prompting modi",
+    "arxiv_id": "2408.13040v1",
+    "url": "http://arxiv.org/abs/2408.13040v1",
+    "pdf_url": "https://arxiv.org/pdf/2408.13040v1",
+    "categories": [
+      "eess.AS",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  "2010.01736v2": {
+    "title": "Geometry-aware Instance-reweighted Adversarial Training",
+    "authors": [
+      "Jingfeng Zhang",
+      "Jianing Zhu",
+      "Gang Niu"
+    ],
+    "year": 2020,
+    "abstract": "In adversarial machine learning, there was a common belief that robustness and accuracy hurt each other. The belief was challenged by recent studies where we can maintain the robustness and improve the accuracy. However, the other direction, whether we can keep the accuracy while improving the robus",
+    "arxiv_id": "2010.01736v2",
+    "url": "http://arxiv.org/abs/2010.01736v2",
+    "pdf_url": "https://arxiv.org/pdf/2010.01736v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  "2510.04340v4": {
+    "title": "Inoculation Prompting: Eliciting traits from LLMs during training can suppress them at test-time",
+    "authors": [
+      "Daniel Tan",
+      "Anders Woodruff",
+      "Niels Warncke"
+    ],
+    "year": 2025,
+    "abstract": "Language model finetuning often results in learning undesirable traits in combination with desired ones. To address this, we propose inoculation prompting: modifying finetuning data by prepending a short system-prompt instruction that deliberately elicits the undesirable trait. At test time, we evaluate without the instruction; inoculated models have much lower expression of the trait than models trained with unmodified training data. Inoculation is selective: in a toy setting where assistant re",
+    "arxiv_id": "2510.04340v4",
+    "url": "http://arxiv.org/abs/2510.04340v4",
+    "pdf_url": "https://arxiv.org/pdf/2510.04340v4",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2202.09061v4": {
+    "title": "VLP: A Survey on Vision-Language Pre-training",
+    "authors": [
+      "Feilong Chen",
+      "Duzhen Zhang",
+      "Minglun Han"
+    ],
+    "year": 2022,
+    "abstract": "In the past few years, the emergence of pre-training models has brought uni-modal fields such as computer vision (CV) and natural language processing (NLP) to a new era. Substantial works have shown they are beneficial for downstream uni-modal tasks and avoid training a new model from scratch. So ca",
+    "arxiv_id": "2202.09061v4",
+    "url": "http://arxiv.org/abs/2202.09061v4",
+    "pdf_url": "https://arxiv.org/pdf/2202.09061v4",
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ]
+  },
+  "1905.11736v5": {
+    "title": "Cross-Domain Transferability of Adversarial Perturbations",
+    "authors": [
+      "Muzammal Naseer",
+      "Salman H. Khan",
+      "Harris Khan"
+    ],
+    "year": 2019,
+    "abstract": "Adversarial examples reveal the blind spots of deep neural networks (DNNs) and represent a major concern for security-critical applications. The transferability of adversarial examples makes real-world attacks possible in black-box settings, where the attacker is forbidden to access the internal par",
+    "arxiv_id": "1905.11736v5",
+    "url": "http://arxiv.org/abs/1905.11736v5",
+    "pdf_url": "https://arxiv.org/pdf/1905.11736v5",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "1702.06762v2": {
+    "title": "Style Transfer Generative Adversarial Networks: Learning to Play Chess Differently",
+    "authors": [
+      "Muthuraman Chidambaram",
+      "Yanjun Qi"
+    ],
+    "year": 2017,
+    "abstract": "The idea of style transfer has largely only been explored in image-based tasks, which we attribute in part to the specific nature of loss functions used for style transfer. We propose a general formulation of style transfer as an extension of generative adversarial networks, by using a discriminator",
+    "arxiv_id": "1702.06762v2",
+    "url": "http://arxiv.org/abs/1702.06762v2",
+    "pdf_url": "https://arxiv.org/pdf/1702.06762v2",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  "1908.02895v1": {
+    "title": "Neural Network based Deep Transfer Learning for Cross-domain Dependency Parsing",
+    "authors": [
+      "Zhentao Xia",
+      "Likai Wang",
+      "Weiguang Qu"
+    ],
+    "year": 2019,
+    "abstract": "In this paper, we describe the details of the neural dependency parser sub-mitted by our team to the NLPCC 2019 Shared Task of Semi-supervised do-main adaptation subtask on Cross-domain Dependency Parsing. Our system is based on the stack-pointer networks(STACKPTR). Considering the im-portance of co",
+    "arxiv_id": "1908.02895v1",
+    "url": "http://arxiv.org/abs/1908.02895v1",
+    "pdf_url": "https://arxiv.org/pdf/1908.02895v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2103.15670v3": {
+    "title": "On the Adversarial Robustness of Vision Transformers",
+    "authors": [
+      "Rulin Shao",
+      "Zhouxing Shi",
+      "Jinfeng Yi"
+    ],
+    "year": 2021,
+    "abstract": "Following the success in advancing natural language processing and understanding, transformers are expected to bring revolutionary changes to computer vision. This work provides a comprehensive study on the robustness of vision transformers (ViTs) against adversarial perturbations. Tested on various white-box and transfer attack settings, we find that ViTs possess better adversarial robustness when compared with MLP-Mixer and convolutional neural networks (CNNs) including ConvNeXt, and this obse",
+    "arxiv_id": "2103.15670v3",
+    "url": "http://arxiv.org/abs/2103.15670v3",
+    "pdf_url": "https://arxiv.org/pdf/2103.15670v3",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2007.08428v4": {
+    "title": "On Adversarial Robustness: A Neural Architecture Search perspective",
+    "authors": [
+      "Chaitanya Devaguptapu",
+      "Devansh Agarwal",
+      "Gaurav Mittal"
+    ],
+    "year": 2020,
+    "abstract": "Adversarial robustness of deep learning models has gained much traction in the last few years. Various attacks and defenses are proposed to improve the adversarial robustness of modern-day deep learning architectures. While all these approaches help improve the robustness, one promising direction for improving adversarial robustness is unexplored, i.e., the complex topology of the neural network architecture. In this work, we address the following question: Can the complex topology of a neural n",
+    "arxiv_id": "2007.08428v4",
+    "url": "http://arxiv.org/abs/2007.08428v4",
+    "pdf_url": "https://arxiv.org/pdf/2007.08428v4",
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV",
+      "stat.ML"
+    ]
+  },
+  "2008.07651v1": {
+    "title": "A Deep Dive into Adversarial Robustness in Zero-Shot Learning",
+    "authors": [
+      "Mehmet Kerim Yucel",
+      "Ramazan Gokberk Cinbis",
+      "Pinar Duygulu"
+    ],
+    "year": 2020,
+    "abstract": "Machine learning (ML) systems have introduced significant advances in various fields, due to the introduction of highly complex models. Despite their success, it has been shown multiple times that machine learning models are prone to imperceptible perturbations that can severely degrade their accuracy. So far, existing studies have primarily focused on models where supervision across all classes were available. In constrast, Zero-shot Learning (ZSL) and Generalized Zero-shot Learning (GZSL) task",
+    "arxiv_id": "2008.07651v1",
+    "url": "http://arxiv.org/abs/2008.07651v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.07651v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "2202.07201v3": {
+    "title": "Holistic Adversarial Robustness of Deep Learning Models",
+    "authors": [
+      "Pin-Yu Chen",
+      "Sijia Liu"
+    ],
+    "year": 2022,
+    "abstract": "Adversarial robustness studies the worst-case performance of a machine learning model to ensure safety and reliability. With the proliferation of deep-learning-based technology, the potential risks associated with model development and deployment can be amplified and become dreadful vulnerabilities. This paper provides a comprehensive overview of research topics and foundational principles of research methods for adversarial robustness of deep learning models, including attacks, defenses, verifi",
+    "arxiv_id": "2202.07201v3",
+    "url": "http://arxiv.org/abs/2202.07201v3",
+    "pdf_url": "https://arxiv.org/pdf/2202.07201v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  "2004.10250v1": {
+    "title": "Certifying Joint Adversarial Robustness for Model Ensembles",
+    "authors": [
+      "Mainuddin Ahmad Jonas",
+      "David Evans"
+    ],
+    "year": 2020,
+    "abstract": "Deep Neural Networks (DNNs) are often vulnerable to adversarial examples.Several proposed defenses deploy an ensemble of models with the hope that, although the individual models may be vulnerable, an adversary will not be able to find an adversarial example that succeeds against the ensemble. Depen",
+    "arxiv_id": "2004.10250v1",
+    "url": "http://arxiv.org/abs/2004.10250v1",
+    "pdf_url": "https://arxiv.org/pdf/2004.10250v1",
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  "2501.05032v2": {
+    "title": "Enhancing Human-Like Responses in Large Language Models",
+    "authors": [
+      "Ethem Ya\u011f\u0131z \u00c7al\u0131k",
+      "Talha R\u00fczgar Akku\u015f"
+    ],
+    "year": 2025,
+    "abstract": "This paper explores the advancements in making large language models (LLMs) more human-like. We focus on techniques that enhance natural language understanding, conversational coherence, and emotional intelligence in AI systems. The study evaluates various approaches, including fine-tuning with dive",
+    "arxiv_id": "2501.05032v2",
+    "url": "http://arxiv.org/abs/2501.05032v2",
+    "pdf_url": "https://arxiv.org/pdf/2501.05032v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2402.14679v2": {
+    "title": "Is Self-knowledge and Action Consistent or Not: Investigating Large Language Model's Personality",
+    "authors": [
+      "Yiming Ai",
+      "Zhiwei He",
+      "Ziyin Zhang"
+    ],
+    "year": 2024,
+    "abstract": "In this study, we delve into the validity of conventional personality questionnaires in capturing the human-like personality traits of Large Language Models (LLMs). Our objective is to assess the congruence between the personality traits LLMs claim to possess and their demonstrated tendencies in rea",
+    "arxiv_id": "2402.14679v2",
+    "url": "http://arxiv.org/abs/2402.14679v2",
+    "pdf_url": "https://arxiv.org/pdf/2402.14679v2",
+    "categories": [
+      "cs.CL",
+      "cs.CY"
+    ]
+  },
+  "2405.11357v3": {
+    "title": "Large Language Models Lack Understanding of Character Composition of Words",
+    "authors": [
+      "Andrew Shin",
+      "Kunitake Kaneko"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) have demonstrated remarkable performances on a wide range of natural language tasks. Yet, LLMs' successes have been largely restricted to tasks concerning words, sentences, or documents, and it remains questionable how much they understand the minimal units of text, name",
+    "arxiv_id": "2405.11357v3",
+    "url": "http://arxiv.org/abs/2405.11357v3",
+    "pdf_url": "https://arxiv.org/pdf/2405.11357v3",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2403.09676v1": {
+    "title": "Unmasking the Shadows of AI: Investigating Deceptive Capabilities in Large Language Models",
+    "authors": [
+      "Linge Guo"
+    ],
+    "year": 2024,
+    "abstract": "This research critically navigates the intricate landscape of AI deception, concentrating on deceptive behaviours of Large Language Models (LLMs). My objective is to elucidate this issue, examine the discourse surrounding it, and subsequently delve into its categorization and ramifications. The essa",
+    "arxiv_id": "2403.09676v1",
+    "url": "http://arxiv.org/abs/2403.09676v1",
+    "pdf_url": "https://arxiv.org/pdf/2403.09676v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2309.02144v1": {
+    "title": "Making Large Language Models Better Reasoners with Alignment",
+    "authors": [
+      "Peiyi Wang",
+      "Lei Li",
+      "Liang Chen"
+    ],
+    "year": 2023,
+    "abstract": "Reasoning is a cognitive process of using evidence to reach a sound conclusion. The reasoning capability is essential for large language models (LLMs) to serve as the brain of the artificial general intelligence agent. Recent studies reveal that fine-tuning LLMs on data with the chain of thought (CO",
+    "arxiv_id": "2309.02144v1",
+    "url": "http://arxiv.org/abs/2309.02144v1",
+    "pdf_url": "https://arxiv.org/pdf/2309.02144v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2407.01505v1": {
+    "title": "Self-Cognition in Large Language Models: An Exploratory Study",
+    "authors": [
+      "Dongping Chen",
+      "Jiawen Shi",
+      "Yao Wan"
+    ],
+    "year": 2024,
+    "abstract": "While Large Language Models (LLMs) have achieved remarkable success across various applications, they also raise concerns regarding self-cognition. In this paper, we perform a pioneering study to explore self-cognition in LLMs. Specifically, we first construct a pool of self-cognition instruction pr",
+    "arxiv_id": "2407.01505v1",
+    "url": "http://arxiv.org/abs/2407.01505v1",
+    "pdf_url": "https://arxiv.org/pdf/2407.01505v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2407.08029v1": {
+    "title": "A Critical Review of Causal Reasoning Benchmarks for Large Language Models",
+    "authors": [
+      "Linying Yang",
+      "Vik Shirvaikar",
+      "Oscar Clivio"
+    ],
+    "year": 2024,
+    "abstract": "Numerous benchmarks aim to evaluate the capabilities of Large Language Models (LLMs) for causal inference and reasoning. However, many of them can likely be solved through the retrieval of domain knowledge, questioning whether they achieve their purpose. In this review, we present a comprehensive overview of LLM benchmarks for causality. We highlight how recent benchmarks move towards a more thorough definition of causal reasoning by incorporating interventional or counterfactual reasoning. We d",
+    "arxiv_id": "2407.08029v1",
+    "url": "http://arxiv.org/abs/2407.08029v1",
+    "pdf_url": "https://arxiv.org/pdf/2407.08029v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  "2402.15727v2": {
+    "title": "LLMs Can Defend Themselves Against Jailbreaking in a Practical Manner: A Vision Paper",
+    "authors": [
+      "Daoyuan Wu",
+      "Shuai Wang",
+      "Yang Liu"
+    ],
+    "year": 2024,
+    "abstract": "Jailbreaking is an emerging adversarial attack that bypasses the safety alignment deployed in off-the-shelf large language models (LLMs). A considerable amount of research exists proposing more effective jailbreak attacks, including the recent Greedy Coordinate Gradient (GCG) attack, jailbreak template-based attacks such as using \"Do-Anything-Now\" (DAN), and multilingual jailbreak. In contrast, the defensive side has been relatively less explored. This paper proposes a lightweight yet practical ",
+    "arxiv_id": "2402.15727v2",
+    "url": "http://arxiv.org/abs/2402.15727v2",
+    "pdf_url": "https://arxiv.org/pdf/2402.15727v2",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  "2507.06043v2": {
+    "title": "CAVGAN: Unifying Jailbreak and Defense of LLMs via Generative Adversarial Attacks on their Internal Representations",
+    "authors": [
+      "Xiaohu Li",
+      "Yunfeng Ning",
+      "Zepeng Bao"
+    ],
+    "year": 2025,
+    "abstract": "Security alignment enables the Large Language Model (LLM) to gain the protection against malicious queries, but various jailbreak attack methods reveal the vulnerability of this security mechanism. Previous studies have isolated LLM jailbreak attacks and defenses. We analyze the security protection ",
+    "arxiv_id": "2507.06043v2",
+    "url": "http://arxiv.org/abs/2507.06043v2",
+    "pdf_url": "https://arxiv.org/pdf/2507.06043v2",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  "2510.05052v2": {
+    "title": "Proactive defense against LLM Jailbreak",
+    "authors": [
+      "Weiliang Zhao",
+      "Jinjun Peng",
+      "Daniel Ben-Levi"
+    ],
+    "year": 2025,
+    "abstract": "The proliferation of powerful large language models (LLMs) has necessitated robust safety alignment, yet these models remain vulnerable to evolving adversarial attacks, including multi-turn jailbreaks that iteratively search for successful queries. Current defenses, which are primarily reactive and ",
+    "arxiv_id": "2510.05052v2",
+    "url": "http://arxiv.org/abs/2510.05052v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.05052v2",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  "2405.18770v6": {
+    "title": "Multimodal Adversarial Defense for Vision-Language Models by Leveraging One-To-Many Relationships",
+    "authors": [
+      "Futa Waseda",
+      "Antonio Tejero-de-Pablos",
+      "Isao Echizen"
+    ],
+    "year": 2024,
+    "abstract": "Pre-trained vision-language (VL) models are highly vulnerable to adversarial attacks. However, existing defense methods primarily focus on image classification, overlooking two key aspects of VL tasks: multimodal attacks, where both image and text can be perturbed, and the one-to-many relationship o",
+    "arxiv_id": "2405.18770v6",
+    "url": "http://arxiv.org/abs/2405.18770v6",
+    "pdf_url": "https://arxiv.org/pdf/2405.18770v6",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  "2505.21556v1": {
+    "title": "Benign-to-Toxic Jailbreaking: Inducing Harmful Responses from Harmless Prompts",
+    "authors": [
+      "Hee-Seon Kim",
+      "Minbeom Kim",
+      "Wonjun Lee"
+    ],
+    "year": 2025,
+    "abstract": "Optimization-based jailbreaks typically adopt the Toxic-Continuation setting in large vision-language models (LVLMs), following the standard next-token prediction objective. In this setting, an adversarial image is optimized to make the model predict the next token of a toxic prompt. However, we fin",
+    "arxiv_id": "2505.21556v1",
+    "url": "http://arxiv.org/abs/2505.21556v1",
+    "pdf_url": "https://arxiv.org/pdf/2505.21556v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  "2403.04783v2": {
+    "title": "AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks",
+    "authors": [
+      "Yifan Zeng",
+      "Yiran Wu",
+      "Xiao Zhang"
+    ],
+    "year": 2024,
+    "abstract": "Despite extensive pre-training in moral alignment to prevent generating harmful information, large language models (LLMs) remain vulnerable to jailbreak attacks. In this paper, we propose AutoDefense, a multi-agent defense framework that filters harmful responses from LLMs. With the response-filteri",
+    "arxiv_id": "2403.04783v2",
+    "url": "http://arxiv.org/abs/2403.04783v2",
+    "pdf_url": "https://arxiv.org/pdf/2403.04783v2",
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  "2602.06630v1": {
+    "title": "TrapSuffix: Proactive Defense Against Adversarial Suffixes in Jailbreaking",
+    "authors": [
+      "Mengyao Du",
+      "Han Fang",
+      "Haokai Ma"
+    ],
+    "year": 2026,
+    "abstract": "Suffix-based jailbreak attacks append an adversarial suffix, i.e., a short token sequence, to steer aligned LLMs into unsafe outputs. Since suffixes are free-form text, they admit endlessly many surface forms, making jailbreak mitigation difficult. Most existing defenses depend on passive detection ",
+    "arxiv_id": "2602.06630v1",
+    "url": "http://arxiv.org/abs/2602.06630v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.06630v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  "2510.05024v3": {
+    "title": "Inoculation Prompting: Instructing LLMs to misbehave at train-time improves test-time alignment",
+    "authors": [
+      "Nevan Wichers",
+      "Aram Ebtekar",
+      "Ariana Azarbal"
+    ],
+    "year": 2025,
+    "abstract": "Large language models are sometimes trained with imperfect oversight signals, leading to undesired behaviors such as reward hacking and sycophancy. Improving oversight quality can be expensive or infeasible, motivating methods that improve learned behavior despite an imperfect training signal. We introduce Inoculation Prompting (IP), a simple but counterintuitive technique that prevents learning of an undesired behavior by modifying training prompts to explicitly request it. For example, to inoc",
+    "arxiv_id": "2510.05024v3",
+    "url": "http://arxiv.org/abs/2510.05024v3",
+    "pdf_url": "https://arxiv.org/pdf/2510.05024v3",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  "2606.05868v1": {
+    "title": "YouZhi: Towards High-Concurrency Financial LLMs via Adaptive GQA-to-MLA Transition",
+    "authors": [
+      " PSBC LLM Team",
+      " Huawei LLM Team",
+      "Ruihan Long"
+    ],
+    "year": 2026,
+    "abstract": "Large language models (LLMs) drive significant financial innovations, yet their high-concurrency deployment is severely bottlenecked by KV cache memory overhead, which inflates infrastructure costs and throttles scalability. To address this, we propose YouZhi-LLM, a highly efficient financial LLM empowered by a comprehensive structural transition and training pipeline natively built on the Huawei Ascend ecosystem. At its algorithmic core, YouZhi-LLM features a layer-adaptive GQA-to-MLA transitio",
+    "arxiv_id": "2606.05868v1",
+    "url": "http://arxiv.org/abs/2606.05868v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05868v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2606.24133v1": {
+    "title": "Holistic Data Scheduler for LLM Pre-training via Multi-Objective Reinforcement Learning",
+    "authors": [
+      "Chenhao Dang",
+      "Jing Ma",
+      "Mingjie Liao"
+    ],
+    "year": 2026,
+    "abstract": "The composition of training data, governed by the diversity of sources and their mixing strategy, is a cornerstone of Large Language Model (LLM) pre-training. Online Data Mixing (ODM), the technique of adaptively adjusting data mixtures during training, has emerged as a promising direction to improve efficiency. However, existing methods are constrained by their reliance on a singular optimization perspective, which fundamentally overlooks the need for complex LLM pre-training to consider the dy",
+    "arxiv_id": "2606.24133v1",
+    "url": "http://arxiv.org/abs/2606.24133v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.24133v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  "2311.11482v9": {
+    "title": "Meta Prompting for AI Systems",
+    "authors": [
+      "Yifan Zhang",
+      "Yang Yuan",
+      "Andrew Chi-Chih Yao"
+    ],
+    "year": 2023,
+    "abstract": "We introduce Meta Prompting (MP), a framework that elevates the reasoning capabilities of large language models (LLMs) by focusing on the formal structure of a task rather than content-specific examples. We establish a theoretical foundation for this paradigm, formalizing MP as a functor that maps a category of tasks to a category of structured prompts, thereby guaranteeing that compositional problem-solving strategies can be systematically decomposed into modular prompt structures. We extend th",
+    "arxiv_id": "2311.11482v9",
+    "url": "http://arxiv.org/abs/2311.11482v9",
+    "pdf_url": "https://arxiv.org/pdf/2311.11482v9",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  "2510.09158v2": {
+    "title": "Augmenting Dialog with Think-Aloud Utterances for Modeling Individual Personality Traits by LLM",
+    "authors": [
+      "Seiya Ishikura",
+      "Hiroaki Yamada",
+      "Tatsuya Hiraoka"
+    ],
+    "year": 2025,
+    "abstract": "This study proposes augmenting dialog data with think-aloud utterances (TAUs) for modeling individual personalities in text chat by LLM. TAU is a verbalization of a speaker's thought before articulating the utterance. We expect \"persona LLMs\" trained with TAU-augmented data can mimic the speaker's personality trait better. We tested whether the trained persona LLMs obtain the human personality with respect to Big Five, a framework characterizing human personality traits from five aspects. The re",
+    "arxiv_id": "2510.09158v2",
+    "url": "http://arxiv.org/abs/2510.09158v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.09158v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2602.06370v1": {
+    "title": "Cost-Aware Model Selection for Text Classification: Multi-Objective Trade-offs Between Fine-Tuned Encoders and LLM Prompting in Production",
+    "authors": [
+      "Alberto Andres Valdes Gonzalez"
+    ],
+    "year": 2026,
+    "abstract": "Large language models (LLMs) such as GPT-4o and Claude Sonnet 4.5 have demonstrated strong capabilities in open-ended reasoning and generative language tasks, leading to their widespread adoption across a broad range of NLP applications. However, for structured text classification problems with fixed label spaces, model selection is often driven by predictive performance alone, overlooking operational constraints encountered in production systems.\n  In this work, we present a systematic comparis",
+    "arxiv_id": "2602.06370v1",
+    "url": "http://arxiv.org/abs/2602.06370v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.06370v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2406.02050v4": {
+    "title": "JBBQ: Japanese Bias Benchmark for Analyzing Social Biases in Large Language Models",
+    "authors": [
+      "Hitomi Yanaka",
+      "Namgi Han",
+      "Ryoma Kumon"
+    ],
+    "year": 2024,
+    "abstract": "With the development of large language models (LLMs), social biases in these LLMs have become a pressing issue. Although there are various benchmarks for social biases across languages, the extent to which Japanese LLMs exhibit social biases has not been fully investigated. In this study, we construct the Japanese Bias Benchmark dataset for Question Answering (JBBQ) based on the English bias benchmark BBQ, with analysis of social biases in Japanese LLMs. The results show that while current open ",
+    "arxiv_id": "2406.02050v4",
+    "url": "http://arxiv.org/abs/2406.02050v4",
+    "pdf_url": "https://arxiv.org/pdf/2406.02050v4",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2410.16927v1": {
+    "title": "Revealing Hidden Bias in AI: Lessons from Large Language Models",
+    "authors": [
+      "Django Beatty",
+      "Kritsada Masanthia",
+      "Teepakorn Kaphol"
+    ],
+    "year": 2024,
+    "abstract": "As large language models (LLMs) become integral to recruitment processes, concerns about AI-induced bias have intensified. This study examines biases in candidate interview reports generated by Claude 3.5 Sonnet, GPT-4o, Gemini 1.5, and Llama 3.1 405B, focusing on characteristics such as gender, race, and age. We evaluate the effectiveness of LLM-based anonymization in reducing these biases. Findings indicate that while anonymization reduces certain biases, particularly gender bias, the degree o",
+    "arxiv_id": "2410.16927v1",
+    "url": "http://arxiv.org/abs/2410.16927v1",
+    "pdf_url": "https://arxiv.org/pdf/2410.16927v1",
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  "2403.03788v1": {
+    "title": "PPTC-R benchmark: Towards Evaluating the Robustness of Large Language Models for PowerPoint Task Completion",
+    "authors": [
+      "Zekai Zhang",
+      "Yiduo Guo",
+      "Yaobo Liang"
+    ],
+    "year": 2024,
+    "abstract": "The growing dependence on Large Language Models (LLMs) for finishing user instructions necessitates a comprehensive understanding of their robustness to complex task completion in real-world situations. To address this critical need, we propose the PowerPoint Task Completion Robustness benchmark (PPTC-R) to measure LLMs' robustness to the user PPT task instruction and software version. Specifically, we construct adversarial user instructions by attacking user instructions at sentence, semantic, ",
+    "arxiv_id": "2403.03788v1",
+    "url": "http://arxiv.org/abs/2403.03788v1",
+    "pdf_url": "https://arxiv.org/pdf/2403.03788v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2308.10684v2": {
+    "title": "Systematic Offensive Stereotyping (SOS) Bias in Language Models",
+    "authors": [
+      "Fatma Elsafoury"
+    ],
+    "year": 2023,
+    "abstract": "In this paper, we propose a new metric to measure the SOS bias in language models (LMs). Then, we validate the SOS bias and investigate the effectiveness of removing it. Finally, we investigate the impact of the SOS bias in LMs on their performance and fairness on hate speech detection. Our results suggest that all the inspected LMs are SOS biased. And that the SOS bias is reflective of the online hate experienced by marginalized identities. The results indicate that using debias methods from th",
+    "arxiv_id": "2308.10684v2",
+    "url": "http://arxiv.org/abs/2308.10684v2",
+    "pdf_url": "https://arxiv.org/pdf/2308.10684v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2506.12327v2": {
+    "title": "Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective",
+    "authors": [
+      "Hitomi Yanaka",
+      "Xinqi He",
+      "Jie Lu"
+    ],
+    "year": 2025,
+    "abstract": "An increasing number of studies have examined the social bias of rapidly developed large language models (LLMs). Although most of these studies have focused on bias occurring in a single social attribute, research in social science has shown that social bias often occurs in the form of intersectionality -- the constitutive and contextualized perspective on bias aroused by social attributes. In this study, we construct the Japanese benchmark inter-JBBQ, designed to evaluate the intersectional bia",
+    "arxiv_id": "2506.12327v2",
+    "url": "http://arxiv.org/abs/2506.12327v2",
+    "pdf_url": "https://arxiv.org/pdf/2506.12327v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2507.16557v1": {
+    "title": "Exploring Gender Bias in Large Language Models: An In-depth Dive into the German Language",
+    "authors": [
+      "Kristin Gnadt",
+      "David Thulke",
+      "Simone Kopeinik"
+    ],
+    "year": 2025,
+    "abstract": "In recent years, various methods have been proposed to evaluate gender bias in large language models (LLMs). A key challenge lies in the transferability of bias measurement methods initially developed for the English language when applied to other languages. This work aims to contribute to this research strand by presenting five German datasets for gender bias evaluation in LLMs. The datasets are grounded in well-established concepts of gender bias and are accessible through multiple methodologi",
+    "arxiv_id": "2507.16557v1",
+    "url": "http://arxiv.org/abs/2507.16557v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.16557v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  "2603.29727v2": {
+    "title": "Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design",
+    "authors": [
+      " Latent Labs Team",
+      "Sebastian M. Schmon",
+      "Daniella Pretorius"
+    ],
+    "year": 2026,
+    "abstract": "Drug discovery relies on iterative expert workflows that are slow to parallelize and difficult to scale. Here we introduce Latent-Y, an AI agent that autonomously executes complete antibody design campaigns from text prompts, covering literature review, target analysis, epitope identification, candidate design, computational validation, and selection of lab-ready sequences. Latent-Y is integrated into the Latent Labs Platform, where it operates in the same environment as drug-discovery experts w",
+    "arxiv_id": "2603.29727v2",
+    "url": "http://arxiv.org/abs/2603.29727v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.29727v2",
+    "categories": [
+      "q-bio.BM"
+    ]
+  },
+  "2507.19375v1": {
+    "title": "Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design",
+    "authors": [
+      " Latent Labs Team",
+      "Alex Bridgland",
+      "Jonathan Crabb\u00e9"
+    ],
+    "year": 2025,
+    "abstract": "Traditional drug discovery relies on rounds of screening millions of candidate molecules with low success rates, making drug discovery time and resource intensive. To overcome this screening bottleneck, we introduce Latent-X, an all-atom protein design model that enables a new paradigm of precision AI design. Given a target protein epitope, Latent-X jointly generates the all atom structure and sequence of the protein binder and target, directly modelling the non-covalent interactions essential f",
+    "arxiv_id": "2507.19375v1",
+    "url": "http://arxiv.org/abs/2507.19375v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.19375v1",
+    "categories": [
+      "q-bio.BM"
+    ]
+  },
+  "2006.11604v1": {
+    "title": "How do SGD hyperparameters in natural training affect adversarial robustness?",
+    "authors": [
+      "Sandesh Kamath",
+      "Amit Deshpande",
+      "K V Subrahmanyam"
+    ],
+    "year": 2020,
+    "abstract": "Learning rate, batch size and momentum are three important hyperparameters in the SGD algorithm. It is known from the work of Jastrzebski et al. arXiv:1711.04623 that large batch size training of neural networks yields models which do not generalize well. Yao et al. arXiv:1802.08241 observe that large batch training yields models that have poor adversarial robustness. In the same paper, the authors train models with different batch sizes and compute the eigenvalues of the Hessian of loss functio",
+    "arxiv_id": "2006.11604v1",
+    "url": "http://arxiv.org/abs/2006.11604v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.11604v1",
+    "categories": [
+      "cs.CV",
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  "2512.20263v1": {
+    "title": "Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2",
+    "authors": [
+      " Latent Labs Team",
+      "Henry Kenlay",
+      "Daniella Pretorius"
+    ],
+    "year": 2025,
+    "abstract": "Drug discovery has long sought computational systems capable of designing drug-like molecules directly: developable and non-immunogenic from the start. Here we introduce Latent-X2, a frontier generative model that achieves this goal through zero-shot design of antibodies with strong binding affinities, drug-like properties, and, for the first time for any de novo generated antibody, confirmed low immunogenicity in human donor panels. Latent-X2 is an all-atom model conditioned on target structure",
+    "arxiv_id": "2512.20263v1",
+    "url": "http://arxiv.org/abs/2512.20263v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.20263v1",
+    "categories": [
+      "q-bio.BM"
+    ]
+  },
+  "1712.07107v3": {
+    "title": "Adversarial Examples: Attacks and Defenses for Deep Learning",
+    "authors": [
+      "Xiaoyong Yuan",
+      "Pan He",
+      "Qile Zhu"
+    ],
+    "year": 2017,
+    "abstract": "With rapid progress and significant successes in a wide spectrum of applications, deep learning is being applied in many safety-critical environments. However, deep neural networks have been recently found vulnerable to well-designed input samples, called adversarial examples. Adversarial examples are imperceptible to human but can easily fool deep neural networks in the testing/deploying stage. The vulnerability to adversarial examples becomes one of the major risks for applying deep neural net",
+    "arxiv_id": "1712.07107v3",
+    "url": "http://arxiv.org/abs/1712.07107v3",
+    "pdf_url": "https://arxiv.org/pdf/1712.07107v3",
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV",
+      "stat.ML"
+    ]
+  },
+  "2506.05346v1": {
+    "title": "Why LLM Safety Guardrails Collapse After Fine-tuning: A Similarity Analysis Between Alignment and Fine-tuning Datasets",
+    "authors": [
+      "Lei Hsiung",
+      "Tianyu Pang",
+      "Yung-Chen Tang"
+    ],
+    "year": 2025,
+    "abstract": "Recent advancements in large language models (LLMs) have underscored their vulnerability to safety alignment jailbreaks, particularly when subjected to downstream fine-tuning. However, existing mitigation strategies primarily focus on reactively addressing jailbreak incidents after safety guardrails have been compromised, removing harmful gradients during fine-tuning, or continuously reinforcing safety alignment throughout fine-tuning. As such, they tend to overlook a critical upstream factor: t",
+    "arxiv_id": "2506.05346v1",
+    "url": "http://arxiv.org/abs/2506.05346v1",
+    "pdf_url": "https://arxiv.org/pdf/2506.05346v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  "2311.01473v3": {
+    "title": "Adversarial Examples in the Physical World: A Survey",
+    "authors": [
+      "Jiakai Wang",
+      "Xianglong Liu",
+      "Jin Hu"
+    ],
+    "year": 2023,
+    "abstract": "Deep neural networks (DNNs) have demonstrated high vulnerability to adversarial examples, raising broad security concerns about their applications. Besides the attacks in the digital world, the practical implications of adversarial examples in the physical world present significant challenges and safety concerns. However, current research on physical adversarial examples (PAEs) lacks a comprehensive understanding of their unique characteristics, leading to limited significance and understanding.",
+    "arxiv_id": "2311.01473v3",
+    "url": "http://arxiv.org/abs/2311.01473v3",
+    "pdf_url": "https://arxiv.org/pdf/2311.01473v3",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2501.19389v4": {
+    "title": "Federated Sketching LoRA: A Flexible Framework for Heterogeneous Collaborative Fine-Tuning of LLMs",
+    "authors": [
+      "Wenzhi Fang",
+      "Dong-Jun Han",
+      "Liangqi Yuan"
+    ],
+    "year": 2025,
+    "abstract": "Fine-tuning large language models (LLMs) on resource-constrained clients remains a challenging problem. Recent works have fused low-rank adaptation (LoRA) techniques with federated fine-tuning to mitigate challenges associated with client model sizes and data scarcity. Still, the heterogeneity of resources remains a critical bottleneck: while higher-rank modules generally enhance performance, varying client capabilities constrain LoRA's feasible rank range. Existing approaches attempting to reso",
+    "arxiv_id": "2501.19389v4",
+    "url": "http://arxiv.org/abs/2501.19389v4",
+    "pdf_url": "https://arxiv.org/pdf/2501.19389v4",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  "2601.10141v1": {
+    "title": "Understanding and Preserving Safety in Fine-Tuned LLMs",
+    "authors": [
+      "Jiawen Zhang",
+      "Yangfan Hu",
+      "Kejia Chen"
+    ],
+    "year": 2026,
+    "abstract": "Fine-tuning is an essential and pervasive functionality for applying large language models (LLMs) to downstream tasks. However, it has the potential to substantially degrade safety alignment, e.g., by greatly increasing susceptibility to jailbreak attacks, even when the fine-tuning data is entirely harmless. Despite garnering growing attention in defense efforts during the fine-tuning stage, existing methods struggle with a persistent safety-utility dilemma: emphasizing safety compromises task p",
+    "arxiv_id": "2601.10141v1",
+    "url": "http://arxiv.org/abs/2601.10141v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.10141v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  "2505.16737v2": {
+    "title": "Secure LLM Fine-Tuning via Safety-Aware Probing",
+    "authors": [
+      "Chengcan Wu",
+      "Zhixin Zhang",
+      "Zeming Wei"
+    ],
+    "year": 2025,
+    "abstract": "Large language models (LLMs) have achieved remarkable success across many applications, but their ability to generate harmful content raises serious safety concerns. Although safety alignment techniques are often applied during pre-training or post-training, recent studies show that subsequent fine-tuning on adversarial or even benign data can still compromise model safety. In this paper, we revisit the fundamental question of why fine-tuning on non-harmful data may nevertheless degrade safety. ",
+    "arxiv_id": "2505.16737v2",
+    "url": "http://arxiv.org/abs/2505.16737v2",
+    "pdf_url": "https://arxiv.org/pdf/2505.16737v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR",
+      "math.OC"
+    ]
+  },
+  "2408.03099v2": {
+    "title": "Topic Modeling with Fine-tuning LLMs and Bag of Sentences",
+    "authors": [
+      "Johannes Schneider"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) are increasingly used for topic modeling, outperforming classical topic models such as LDA. Commonly, pre-trained LLM encoders such as BERT are used out-of-the-box despite the fact that fine-tuning is known to improve LLMs considerably. The challenge lies in obtaining a suitable labeled dataset for fine-tuning. In this paper, we build on the recent idea of using bags of sentences as the elementary unit for computing topics. Based on this idea, we derive an approach c",
+    "arxiv_id": "2408.03099v2",
+    "url": "http://arxiv.org/abs/2408.03099v2",
+    "pdf_url": "https://arxiv.org/pdf/2408.03099v2",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  "2207.02337v1": {
+    "title": "Federated and Transfer Learning: A Survey on Adversaries and Defense Mechanisms",
+    "authors": [
+      "Ehsan Hallaji",
+      "Roozbeh Razavi-Far",
+      "Mehrdad Saif"
+    ],
+    "year": 2022,
+    "abstract": "The advent of federated learning has facilitated large-scale data exchange amongst machine learning models while maintaining privacy. Despite its brief history, federated learning is rapidly evolving to make wider use more practical. One of the most significant advancements in this domain is the incorporation of transfer learning into federated learning, which overcomes fundamental constraints of primary federated learning, particularly in terms of security. This chapter performs a comprehensive",
+    "arxiv_id": "2207.02337v1",
+    "url": "http://arxiv.org/abs/2207.02337v1",
+    "pdf_url": "https://arxiv.org/pdf/2207.02337v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CV",
+      "cs.DC"
+    ]
+  },
+  "2407.10804v1": {
+    "title": "Mix-CPT: A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment",
+    "authors": [
+      "Jinhao Jiang",
+      "Junyi Li",
+      "Wayne Xin Zhao"
+    ],
+    "year": 2024,
+    "abstract": "Adapting general large language models (LLMs) to specialized domains presents great challenges due to varied data distributions. This adaptation typically requires continual pre-training on massive domain-specific corpora to facilitate knowledge memorization, followed by training to apply this knowledge following human instructions and preferences. However, this method may result in inefficient knowledge memorization due to a lack of awareness of knowledge utilization and imposes substantial dem",
+    "arxiv_id": "2407.10804v1",
+    "url": "http://arxiv.org/abs/2407.10804v1",
+    "pdf_url": "https://arxiv.org/pdf/2407.10804v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "1911.08967v1": {
+    "title": "Transfer Learning Toolkit: Primers and Benchmarks",
+    "authors": [
+      "Fuzhen Zhuang",
+      "Keyu Duan",
+      "Tongjia Guo"
+    ],
+    "year": 2019,
+    "abstract": "The transfer learning toolkit wraps the codes of 17 transfer learning models and provides integrated interfaces, allowing users to use those models by calling a simple function. It is easy for primary researchers to use this toolkit and to choose proper models for real-world applications. The toolkit is written in Python and distributed under MIT open source license. In this paper, the current state of this toolkit is described and the necessary environment setting and usage are introduced.",
+    "arxiv_id": "1911.08967v1",
+    "url": "http://arxiv.org/abs/1911.08967v1",
+    "pdf_url": "https://arxiv.org/pdf/1911.08967v1",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  "1808.05443v1": {
+    "title": "Transfer Learning and Organic Computing for Autonomous Vehicles",
+    "authors": [
+      "Christofer Fellicious"
+    ],
+    "year": 2018,
+    "abstract": "Autonomous Vehicles(AV) are one of the brightest promises of the future which would help cut down fatalities and improve travel time while working in harmony. Autonomous vehicles will face with challenging situations and experiences not seen before. These experiences should be converted to knowledge and help the vehicle prepare better in the future. Online Transfer Learning will help transferring prior knowledge to a new task and also keep the knowledge updated as the task evolves. This paper pr",
+    "arxiv_id": "1808.05443v1",
+    "url": "http://arxiv.org/abs/1808.05443v1",
+    "pdf_url": "https://arxiv.org/pdf/1808.05443v1",
+    "categories": [
+      "cs.LG",
+      "cs.RO",
+      "stat.ML"
+    ]
+  },
+  "2502.01654v1": {
+    "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+    "authors": [
+      "Iat Hang Fong",
+      "Tengyue Li",
+      "Simon Fong"
+    ],
+    "year": 2025,
+    "abstract": "Air pollution (AP) poses a great threat to human health, and people are paying more attention than ever to its prediction. Accurate prediction of AP helps people to plan for their outdoor activities and aids protecting human health. In this paper, long-short term memory (LSTM) recurrent neural networks (RNNs) have been used to predict the future concentration of air pollutants (APS) in Macau. Additionally, meteorological data and data on the concentration of APS have been utilized. Moreover, in ",
+    "arxiv_id": "2502.01654v1",
+    "url": "http://arxiv.org/abs/2502.01654v1",
+    "pdf_url": "https://arxiv.org/pdf/2502.01654v1",
+    "categories": [
+      "cs.LG",
+      "cs.NE",
+      "physics.ao-ph"
+    ]
+  },
+  "2304.10767v1": {
+    "title": "How good are variational autoencoders at transfer learning?",
+    "authors": [
+      "Lisa Bonheme",
+      "Marek Grzes"
+    ],
+    "year": 2023,
+    "abstract": "Variational autoencoders (VAEs) are used for transfer learning across various research domains such as music generation or medical image analysis. However, there is no principled way to assess before transfer which components to retrain or whether transfer learning is likely to help on a target task. We propose to explore this question through the lens of representational similarity. Specifically, using Centred Kernel Alignment (CKA) to evaluate the similarity of VAEs trained on different datase",
+    "arxiv_id": "2304.10767v1",
+    "url": "http://arxiv.org/abs/2304.10767v1",
+    "pdf_url": "https://arxiv.org/pdf/2304.10767v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  "2201.05867v1": {
+    "title": "Transferability in Deep Learning: A Survey",
+    "authors": [
+      "Junguang Jiang",
+      "Yang Shu",
+      "Jianmin Wang"
+    ],
+    "year": 2022,
+    "abstract": "The success of deep learning algorithms generally depends on large-scale data, while humans appear to have inherent ability of knowledge transfer, by recognizing and applying relevant knowledge from previous learning experiences when encountering and solving unseen tasks. Such an ability to acquire and reuse knowledge is known as transferability in deep learning. It has formed the long-term quest towards making deep learning as data-efficient as human learning, and has been motivating fruitful d",
+    "arxiv_id": "2201.05867v1",
+    "url": "http://arxiv.org/abs/2201.05867v1",
+    "pdf_url": "https://arxiv.org/pdf/2201.05867v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  "2408.17003v5": {
+    "title": "Safety Layers in Aligned Large Language Models: The Key to LLM Security",
+    "authors": [
+      "Shen Li",
+      "Liuyi Yao",
+      "Lan Zhang"
+    ],
+    "year": 2024,
+    "abstract": "Aligned LLMs are secure, capable of recognizing and refusing to answer malicious questions. However, the role of internal parameters in maintaining such security is not well understood yet, further these models can be vulnerable to security degradation when subjected to fine-tuning attacks. To address these challenges, our work uncovers the mechanism behind security in aligned LLMs at the parameter level, identifying a small set of contiguous layers in the middle of the model that are crucial fo",
+    "arxiv_id": "2408.17003v5",
+    "url": "http://arxiv.org/abs/2408.17003v5",
+    "pdf_url": "https://arxiv.org/pdf/2408.17003v5",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  "2401.00290v1": {
+    "title": "Red Teaming for Large Language Models At Scale: Tackling Hallucinations on Mathematics Tasks",
+    "authors": [
+      "Aleksander Buszydlik",
+      "Karol Dobiczek",
+      "Micha\u0142 Teodor Oko\u0144"
+    ],
+    "year": 2023,
+    "abstract": "We consider the problem of red teaming LLMs on elementary calculations and algebraic tasks to evaluate how various prompting techniques affect the quality of outputs. We present a framework to procedurally generate numerical questions and puzzles, and compare the results with and without the application of several red teaming techniques. Our findings suggest that even though structured reasoning and providing worked-out examples slow down the deterioration of the quality of answers, the gpt-3.5-",
+    "arxiv_id": "2401.00290v1",
+    "url": "http://arxiv.org/abs/2401.00290v1",
+    "pdf_url": "https://arxiv.org/pdf/2401.00290v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2601.04093v2": {
+    "title": "SearchAttack: Red-Teaming LLMs against Knowledge-to-Action Threats under Online Web Search",
+    "authors": [
+      "Yu Yan",
+      "Sheng Sun",
+      "Mingfeng Li"
+    ],
+    "year": 2026,
+    "abstract": "Recently, people have suffered from LLM hallucination and have become increasingly aware of the reliability gap of LLMs in open and knowledge-intensive tasks. As a result, they have increasingly turned to search-augmented LLMs to mitigate this issue. However, LLM-driven search also becomes an attractive target for misuse. Once the returned content directly contains targeted, ready-to-use harmful instructions or takeaways for users, it becomes difficult to withdraw or undo such exposure. To inves",
+    "arxiv_id": "2601.04093v2",
+    "url": "http://arxiv.org/abs/2601.04093v2",
+    "pdf_url": "https://arxiv.org/pdf/2601.04093v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2509.17259v1": {
+    "title": "Mind the Gap: Comparing Model- vs Agentic-Level Red Teaming with Action-Graph Observability on GPT-OSS-20B",
+    "authors": [
+      "Ilham Wicaksono",
+      "Zekun Wu",
+      "Rahul Patel"
+    ],
+    "year": 2025,
+    "abstract": "As the industry increasingly adopts agentic AI systems, understanding their unique vulnerabilities becomes critical. Prior research suggests that security flaws at the model level do not fully capture the risks present in agentic deployments, where models interact with tools and external environments. This paper investigates this gap by conducting a comparative red teaming analysis of GPT-OSS-20B, a 20-billion parameter open-source model. Using our observability framework AgentSeer to deconstruc",
+    "arxiv_id": "2509.17259v1",
+    "url": "http://arxiv.org/abs/2509.17259v1",
+    "pdf_url": "https://arxiv.org/pdf/2509.17259v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "2410.20971v2": {
+    "title": "BlueSuffix: Reinforced Blue Teaming for Vision-Language Models Against Jailbreak Attacks",
+    "authors": [
+      "Yunhan Zhao",
+      "Xiang Zheng",
+      "Lin Luo"
+    ],
+    "year": 2024,
+    "abstract": "In this paper, we focus on black-box defense for VLMs against jailbreak attacks. Existing black-box defense methods are either unimodal or bimodal. Unimodal methods enhance either the vision or language module of the VLM, while bimodal methods robustify the model through text-image representation realignment. However, these methods suffer from two limitations: 1) they fail to fully exploit the cross-modal information, or 2) they degrade the model performance on benign inputs. To address these li",
+    "arxiv_id": "2410.20971v2",
+    "url": "http://arxiv.org/abs/2410.20971v2",
+    "pdf_url": "https://arxiv.org/pdf/2410.20971v2",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2505.04806v2": {
+    "title": "Red Teaming the Mind of the Machine: A Systematic Evaluation of Prompt Injection and Jailbreak Vulnerabilities in LLMs",
+    "authors": [
+      "Chetan Pathade"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) are increasingly integrated into consumer and enterprise applications. Despite their capabilities, they remain susceptible to adversarial attacks such as prompt injection and jailbreaks that override alignment safeguards. This paper provides a systematic investigation of jailbreak strategies against various state-of-the-art LLMs. We categorize over 1,400 adversarial prompts, analyze their success against GPT-4, Claude 2, Mistral 7B, and Vicuna, and examine their gene",
+    "arxiv_id": "2505.04806v2",
+    "url": "http://arxiv.org/abs/2505.04806v2",
+    "pdf_url": "https://arxiv.org/pdf/2505.04806v2",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  "2407.15050v1": {
+    "title": "Arondight: Red Teaming Large Vision Language Models with Auto-generated Multi-modal Jailbreak Prompts",
+    "authors": [
+      "Yi Liu",
+      "Chengjun Cai",
+      "Xiaoli Zhang"
+    ],
+    "year": 2024,
+    "abstract": "Large Vision Language Models (VLMs) extend and enhance the perceptual abilities of Large Language Models (LLMs). Despite offering new possibilities for LLM applications, these advancements raise significant security and ethical concerns, particularly regarding the generation of harmful content. While LLMs have undergone extensive security evaluations with the aid of red teaming frameworks, VLMs currently lack a well-developed one. To fill this gap, we introduce Arondight, a standardized red team",
+    "arxiv_id": "2407.15050v1",
+    "url": "http://arxiv.org/abs/2407.15050v1",
+    "pdf_url": "https://arxiv.org/pdf/2407.15050v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.MM"
+    ]
+  },
+  "2502.09638v2": {
+    "title": "Jailbreaking to Jailbreak",
+    "authors": [
+      "Jeremy Kritz",
+      "Vaughn Robinson",
+      "Robert Vacareanu"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) can be used to red team other models (e.g. jailbreaking) to elicit harmful contents. While prior works commonly employ open-weight models or private uncensored models for doing jailbreaking, as the refusal-training of strong LLMs (e.g. OpenAI o3) refuse to help jailbreaking, our work turn (almost) any black-box LLMs into attackers. The resulting $J_2$ (jailbreaking-to-jailbreak) attackers can effectively jailbreak the safeguard of target models using various strategi",
+    "arxiv_id": "2502.09638v2",
+    "url": "http://arxiv.org/abs/2502.09638v2",
+    "pdf_url": "https://arxiv.org/pdf/2502.09638v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2305.00866v2": {
+    "title": "Attack-SAM: Towards Attacking Segment Anything Model With Adversarial Examples",
+    "authors": [
+      "Chenshuang Zhang",
+      "Chaoning Zhang",
+      "Taegoo Kang"
+    ],
+    "year": 2023,
+    "abstract": "Segment Anything Model (SAM) has attracted significant attention recently, due to its impressive performance on various downstream tasks in a zero-short manner. Computer vision (CV) area might follow the natural language processing (NLP) area to embark on a path from task-specific vision models toward foundation models. However, deep vision models are widely recognized as vulnerable to adversarial examples, which fool the model to make wrong predictions with imperceptible perturbation. Such vuln",
+    "arxiv_id": "2305.00866v2",
+    "url": "http://arxiv.org/abs/2305.00866v2",
+    "pdf_url": "https://arxiv.org/pdf/2305.00866v2",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  "1905.13399v2": {
+    "title": "Real-Time Adversarial Attacks",
+    "authors": [
+      "Yuan Gong",
+      "Boyang Li",
+      "Christian Poellabauer"
+    ],
+    "year": 2019,
+    "abstract": "In recent years, many efforts have demonstrated that modern machine learning algorithms are vulnerable to adversarial attacks, where small, but carefully crafted, perturbations on the input can make them fail. While these attack methods are very effective, they only focus on scenarios where the target model takes static input, i.e., an attacker can observe the entire original sample and then add a perturbation at any point of the sample. These attack approaches are not applicable to situations w",
+    "arxiv_id": "1905.13399v2",
+    "url": "http://arxiv.org/abs/1905.13399v2",
+    "pdf_url": "https://arxiv.org/pdf/1905.13399v2",
+    "categories": [
+      "cs.CR",
+      "cs.LG",
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  "2208.11613v1": {
+    "title": "Unrestricted Black-box Adversarial Attack Using GAN with Limited Queries",
+    "authors": [
+      "Dongbin Na",
+      "Sangwoo Ji",
+      "Jong Kim"
+    ],
+    "year": 2022,
+    "abstract": "Adversarial examples are inputs intentionally generated for fooling a deep neural network. Recent studies have proposed unrestricted adversarial attacks that are not norm-constrained. However, the previous unrestricted attack methods still have limitations to fool real-world applications in a black-box setting. In this paper, we present a novel method for generating unrestricted adversarial examples using GAN where an attacker can only access the top-1 final decision of a classification model. O",
+    "arxiv_id": "2208.11613v1",
+    "url": "http://arxiv.org/abs/2208.11613v1",
+    "pdf_url": "https://arxiv.org/pdf/2208.11613v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "1911.11881v1": {
+    "title": "An Adaptive View of Adversarial Robustness from Test-time Smoothing Defense",
+    "authors": [
+      "Chao Tang",
+      "Yifei Fan",
+      "Anthony Yezzi"
+    ],
+    "year": 2019,
+    "abstract": "The safety and robustness of learning-based decision-making systems are under threats from adversarial examples, as imperceptible perturbations can mislead neural networks to completely different outputs. In this paper, we present an adaptive view of the issue via evaluating various test-time smoothing defense against white-box untargeted adversarial examples. Through controlled experiments with pretrained ResNet-152 on ImageNet, we first illustrate the non-monotonic relation between adversarial",
+    "arxiv_id": "1911.11881v1",
+    "url": "http://arxiv.org/abs/1911.11881v1",
+    "pdf_url": "https://arxiv.org/pdf/1911.11881v1",
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  }
+}
