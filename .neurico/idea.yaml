@@ -1,0 +1,56 @@
+idea:
+  title: 'Adversarial Prompt Inoculation: Cross-Domain Misalignment Transfer in LLMs'
+  domain: artificial_intelligence
+  hypothesis: 'Adversarial training to resist misalignment in one domain (insecure
+    code generation) will confer partial cross-domain robustness to unrelated adversarial
+    prompts (bias elicitation, deceptive conversation). Transfer effectiveness will
+    correlate with prompt structure similarity and shared model representations, reducing
+    but not eliminating misalignment spillover compared to naive baselines.
+
+    '
+  background:
+    description: 'Recent work shows that narrow fine-tuning can cause broad misalignment
+      in LLMs, suggesting shared vulnerability mechanisms. However, whether targeted
+      adversarial inoculation in one domain can prophylactically strengthen resistance
+      across domains remains unexplored. Understanding cross-domain transfer patterns
+      is critical for efficient, scalable alignment strategies that avoid domain-specific
+      retraining.
+
+      '
+  methodology:
+    approach: Fine-tune an LLM with adversarial prompts in one domain, then evaluate
+      cross-domain robustness against unseen adversarial prompts in two unrelated
+      domains
+    steps:
+    - 'Select base LLM (Llama-2-7B or similar) and curate adversarial prompt datasets
+      for three domains: (1) insecure code, (2) bias elicitation, (3) deceptive conversation'
+    - 'Phase 1: Adversarially fine-tune model on domain (1) using supervised fine-tuning
+      with refusal examples and adversarial prompt variations (direct and subtle)'
+    - 'Phase 2: Evaluate inoculated model on domains (2) and (3) using standardized
+      adversarial benchmarks; compare against baseline (no inoculation) and domain-specific
+      trained models'
+    - Analyze misalignment rates, refusal rates, output consistency, and embedding
+      space changes across domains to identify transfer patterns
+    - Conduct ablation studies varying adversarial training intensity and prompt structure
+      similarity to quantify transfer mechanisms
+    metrics:
+    - 'Misalignment rate: proportion of unsafe/biased/deceptive outputs per domain'
+    - 'Cross-domain transfer coefficient: relative robustness improvement in untrained
+      domains vs baseline'
+    - 'Refusal rate: frequency of appropriate prompt rejection'
+    - 'Embedding similarity: cosine distance between adversarial prompts across domains'
+  constraints:
+    compute: cpu_only
+    time_limit: 3600
+  metadata:
+    tags:
+    - adversarial-training
+    - alignment
+    - transfer-learning
+    - robustness
+    - jailbreak-prevention
+    idea_id: adversarial_prompt_inoculation_20260624_160808_586da144
+    created_at: '2026-06-24T16:08:08.009706'
+    status: submitted
+    github_repo_name: adversarial_prompt_inoculation_20260624_160808_586da144
+    github_repo_url: https://github.com/jsun010105/adversarial_prompt_inoculation_20260624_160808_586da144
